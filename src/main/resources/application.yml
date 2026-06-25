@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: expense-settlement-api-app
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
